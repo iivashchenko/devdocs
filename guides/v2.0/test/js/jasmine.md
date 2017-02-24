@@ -57,6 +57,14 @@ Learn more in [Deploy static view files].
   Example:
 
     $ grunt spec:backend
+    
+  You can run just a single test by adding an optional parameter:
+  
+    $ grunt spec --file=<path_to_test>
+  
+  Example:
+    
+    $ grunt spec --file="dev/tests/js/jasmine/tests/app/code/Magento/Ui/base/js/core/layout.test.js"
 
 ## Write a test {#write-test}
 
